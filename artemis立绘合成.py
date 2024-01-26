@@ -18,7 +18,7 @@ Desktop_path = str(get_desktop())
 class EncryptFrame(wx.Frame):
     def __init__(self):
         super().__init__(parent=None, id=wx.ID_ANY, title="artemis立绘批量合成", pos=wx.DefaultPosition,
-        size=(600,600) , style=wx.SYSTEM_MENU | wx.CLOSE_BOX | wx.MINIMIZE_BOX | wx.CAPTION ) #窗口不可拉伸且顶置
+        size=(600,600) , style=wx.SYSTEM_MENU | wx.CLOSE_BOX | wx.MINIMIZE_BOX | wx.CAPTION ) 
         self.SetIcon(wx.Icon("ico.ico", wx.BITMAP_TYPE_ICO))
         self.Bind(wx.EVT_CLOSE,self.OnClose)
         self.Centre() 
