@@ -52,7 +52,7 @@ class EncryptFrame(wx.Frame):
         downSizer = wx.StaticBoxSizer(wx.StaticBox(panel, wx.ID_ANY, u"状态"), wx.VERTICAL)
         txt4 = wx.TextCtrl(panel, style=wx.TE_MULTILINE | wx.TE_READONLY)
         downSizer.Add(txt4, 1, wx.EXPAND | wx.ALL, 5)
-        infortxt = "欢迎使用artemis引擎立绘批量合成工具！\n作者：岱中鹏\n注意事项：\n1.因为立绘文件的特殊性，本程序目前兼容绝大多数利用artemis引擎的解包，但不保证完全可行\n2.一定要注意各文件夹下表情和身体的相对位置，避免因为基本位置错误导致合成错误。"
+        infortxt = "欢迎使用artemis引擎立绘批量合成工具！\n作者：岱中鹏\nGitHub地址：https://github.com/mggaproject/artemis\n注意事项：\n1.因为立绘文件的特殊性，本程序目前兼容绝大多数利用artemis引擎的解包，但不保证完全可行\n2.一定要注意各文件夹下表情和身体的相对位置，避免因为基本位置错误导致合成错误。"
         txt4.SetValue(infortxt)
 
 
